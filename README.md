@@ -34,3 +34,12 @@ $ perldoc ~/perl5/userperls/bashrc
 
 
 
+NOTES
+-----
+
+Symlinks starting with path- are added to $PATH:
+
+ln -s /var/www/perl5/perlbrew/bin ~/perl5/userperls/path-perlbrew-bin
+
+
+
