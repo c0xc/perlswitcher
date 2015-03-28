@@ -13,20 +13,20 @@ root permissions are required.
 INSTALLATION
 ------------
 
-Install Perlbrew (<http://perlbrew.pl/>).
+- Install Perlbrew (<http://perlbrew.pl/>).
 
-mkdir ~/perl5/userperls
+- mkdir ~/perl5/userperls
 
-Copy this script to ~/perl5/userperls/bashrc
+- Copy this script to ~/perl5/userperls/bashrc
 
-echo '. ~/perl5/userperls/bashrc' >>~/.bashrc
+- echo '. ~/perl5/userperls/bashrc' >>~/.bashrc
 
 
 
 USAGE
 -----
 
-$ perlswitch <perl>
+$ perlswitch perl-5.18.4
 
 $ perlinfo
 
