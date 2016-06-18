@@ -1,10 +1,10 @@
 # Perlswitcher
 # Switch between system perl + local::lib and user perl
 
-LS=/bin/ls
 WHICH=/usr/bin/which
-READLINK=/bin/readlink
-SYSTEM_PERL=/usr/bin/perl
+LS=$($WHICH ls)
+READLINK=$($WHICH readlink)
+SYSTEM_PERL=$($WHICH perl)
 
 : <<=cut
 =pod
